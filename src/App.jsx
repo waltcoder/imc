@@ -1,5 +1,5 @@
 import React from 'react';
-// import { useState } from 'react';
+import { useState } from 'react';
 import './App.css';
 
 function App() {
@@ -11,14 +11,20 @@ function App() {
 					<label htmlFor="" className="App-srOnly">
 						Digite sua altura em Metros
 					</label>
-					<input type="text" name="height" id="height" placeholder="Digite sua altura em Metros" enterKeyHint="next" />
+					<input
+						type="number"
+						name="height"
+						id="height"
+						placeholder="Digite sua altura em Metros"
+						enterKeyHint="next"
+					/>
 				</div>
 				<div className="App__form-input-group">
 					<label htmlFor="" className="App-srOnly">
 						Digite seu peso em Quilogramas
 					</label>
 					<input
-						type="text"
+						type="number"
 						name="weight"
 						id="weight"
 						placeholder="Digite seu peso em Quilogramas"
