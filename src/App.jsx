@@ -16,6 +16,7 @@ function App() {
 						name="height"
 						id="height"
 						placeholder="Digite sua altura em Metros"
+						autoComplete="off"
 						enterKeyHint="next"
 					/>
 				</div>
@@ -28,6 +29,7 @@ function App() {
 						name="weight"
 						id="weight"
 						placeholder="Digite seu peso em Quilogramas"
+						autoComplete="off"
 						enterKeyHint="done"
 					/>
 				</div>
@@ -35,7 +37,9 @@ function App() {
 					<label htmlFor="" className="App-srOnly"></label>
 					<input type="text" name="" id="" />
 				</div> */}
-				<button className="button">Calcular</button>
+				<button className="button" type="button" title="Botão que irá calcular seu índice de massa corporal">
+					Calcular
+				</button>
 			</form>
 		</section>
 	);
