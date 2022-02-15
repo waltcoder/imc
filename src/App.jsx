@@ -8,7 +8,7 @@ function App() {
 			<h2 className="App__title">Calculadora IMC</h2>
 			<form action="" className="App__form">
 				<div className="App__form-input-group">
-					<label htmlFor="" className="App-srOnly">
+					<label htmlFor="height" className="App-srOnly">
 						Digite sua altura em Metros
 					</label>
 					<input
@@ -21,7 +21,7 @@ function App() {
 					/>
 				</div>
 				<div className="App__form-input-group">
-					<label htmlFor="" className="App-srOnly">
+					<label htmlFor="weight" className="App-srOnly">
 						Digite seu peso em Quilogramas
 					</label>
 					<input
